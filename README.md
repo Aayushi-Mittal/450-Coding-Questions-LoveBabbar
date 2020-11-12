@@ -8,7 +8,7 @@
 
 | Topic:              | Problem                                                                                              | Solutions        |
 |:-------------------:|------------------------------------------------------------------------------------------------------|:----------------:|
-|                     |                                                                                                      |                  |
+|                     | <img src="https://img.shields.io/badge/Arrays-35-brightgreen">                                       |                  |
 | Array               | Reverse the array                                                                                    | <->              |
 | Array               | Find the maximum and minimum element in an array                                                     | <->              |
 | Array               | Find the "Kth" max and min element of an array                                                       | <->              |
@@ -46,7 +46,7 @@
 | Array               | Median of 2 sorted arrays of equal size                                                              | <->              |
 | Array               | Median of 2 sorted arrays of different size                                                          | <->              |
 |                     |                                                                                                      | <->              |
-|                     |                                                                                                      | <->              |
+|                     | <img src="https://img.shields.io/badge/Matrix-10-yellow">                                             | <->              |
 | Matrix              | Spiral traversal on a Matrix                                                                         | <->              |
 | Matrix              | Search an element in a matriix                                                                       | <->              |
 | Matrix              | Find median in a row wise sorted matrix                                                              | <->              |
@@ -58,7 +58,7 @@
 | Matrix              | Kth smallest element in a row-cpumn wise sorted matrix                                               | <->              |
 | Matrix              | Common elements in all rows of a given matrix                                                        | <->              |
 |                     |                                                                                                      |                  |
-|                     |                                                                                                      |                  |
+|                     | <img src="https://img.shields.io/badge/String-62-orange">                                            |                  |
 | String              | Reverse a String                                                                                     | <->              |
 | String              | Check whether a String is Palindrome or not                                                          | <->              |
 | String              | Find Duplicate characters in a string                                                                | <->              |
@@ -103,7 +103,7 @@
 | String              | Check if two given strings are isomorphic to each other                                              | <->              |
 | String              | Recursively print all sentences that can be formed from list of word lists                           | <->              |
 |                     |                                                                                                      |                  |
-|                     |                                                                                                      |                  |
+|                     | <img src="https://img.shields.io/badge/Searching_&_Sorting-35-red">                                               |                  |
 | Searching & Sorting | Find first and last positions of an element in a sorted array                                        | <->              |
 | Searching & Sorting | Find a Fixed Point (Value equal to index) in a given array                                           | <->              |
 | Searching & Sorting | Search in a rotated sorted array                                                                     | <->              |
@@ -141,7 +141,7 @@
 | Searching & Sorting | Implement Merge-sort in-place                                                                        | <->              |
 | Searching & Sorting | Partitioning and Sorting Arrays with Many Repeated Entries                                           | <->              |
 |                     |                                                                                                      |                  |
-|                     |                                                                                                      |                  |
+|                     | <img src="https://img.shields.io/badge/Linked_List-35-blue">                                         |                  |
 | LinkedList          | Write a Program to reverse the Linked List. (Both Iterative and recursive)                           | <->              |
 | LinkedList          | Reverse a Linked List in group of Given Size. [Very Imp]                                             | <->              |
 | LinkedList          | Write a program to Detect loop in a linked list.                                                     | <->              |
@@ -179,7 +179,7 @@
 | LinkedList          | Program for n’th node from the end of a Linked List                                                  | <->              |
 | LinkedList          | Find the first non-repeating character from a stream of characters                                   | <->              |
 |                     |                                                                                                      |                  |
-|                     |                                                                                                      |                  |
+|                     | <img src="https://img.shields.io/badge/Binary_Trees-34-bluevoilet">                                  |                  |
 | Binary Trees        | level order traversal                                                                                | <->              |
 | Binary Trees        | Reverse Level Order traversal                                                                        | <->              |
 | Binary Trees        | Height of a tree                                                                                     | <->              |

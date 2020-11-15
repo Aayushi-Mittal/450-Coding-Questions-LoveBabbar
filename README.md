@@ -4,7 +4,7 @@
 - **Youtube Channel**: https://www.youtube.com/channel/UCQHLxxBFrbfdrk1jF0moTpw 
 - **Sheet Link**: https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view
 
-## Index :
+<h2 id="index">Index :</h2>
 <ol>
     <li><a href="#array"> Arrays</a></li>
     <li><a href="#matrix"> Matrix</a></li>
@@ -23,12 +23,14 @@
     <li><a href="#bm"> Bit Manipulation</a></li>
 </ol>
 
+` Recommended: Please solve it on “PRACTICE ” first, before moving on to the solution. `
+
 ## DSA Cracker Sheet
 
 | Topic:              | Problem                                                                                              | Solutions        |
 |:-------------------:|------------------------------------------------------------------------------------------------------|:----------------:|
-|                     | <img id="array" src="https://img.shields.io/badge/Arrays-35-brightgreen?style=for-the-badge">                                       |                  |
-| Array               | Reverse the array                                                                                    | <->              |
+|                     | <img id="array" src="https://img.shields.io/badge/Arrays-35-brightgreen?style=for-the-badge">                                       |<a href="#index">🔝 Back</a>|
+| Array               | [Reverse the array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/) |<a href="./01-Arrays/01-Reverse-Array.cpp"><img src="https://img.shields.io/badge/Solution-green"></a>|
 | Array               | Find the maximum and minimum element in an array                                                     | <->              |
 | Array               | Find the "Kth" max and min element of an array                                                       | <->              |
 | Array               | Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo      | <->              |
@@ -65,7 +67,7 @@
 | Array               | Median of 2 sorted arrays of equal size                                                              | <->              |
 | Array               | Median of 2 sorted arrays of different size                                                          | <->              |
 |                     |                                                                                                      | <->              |
-|                     | <img id="matrix" src="https://img.shields.io/badge/Matrix-10-yellow?style=for-the-badge">                                             | <->              |
+|                     | <img id="matrix" src="https://img.shields.io/badge/Matrix-10-yellow?style=for-the-badge">                                             |<a href="#index">🔝 Back</a>|
 | Matrix              | Spiral traversal on a Matrix                                                                         | <->              |
 | Matrix              | Search an element in a matriix                                                                       | <->              |
 | Matrix              | Find median in a row wise sorted matrix                                                              | <->              |
@@ -77,7 +79,7 @@
 | Matrix              | Kth smallest element in a row-cpumn wise sorted matrix                                               | <->              |
 | Matrix              | Common elements in all rows of a given matrix                                                        | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="string" src="https://img.shields.io/badge/String-42-orange?style=for-the-badge">                                            |                  |
+|                     | <img id="string" src="https://img.shields.io/badge/String-42-orange?style=for-the-badge">                                            |<a href="#index">🔝 Back</a>|
 | String              | Reverse a String                                                                                     | <->              |
 | String              | Check whether a String is Palindrome or not                                                          | <->              |
 | String              | Find Duplicate characters in a string                                                                | <->              |
@@ -122,7 +124,7 @@
 | String              | Check if two given strings are isomorphic to each other                                              | <->              |
 | String              | Recursively print all sentences that can be formed from list of word lists                           | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="sns" src="https://img.shields.io/badge/Searching_&_Sorting-36-red?style=for-the-badge">              |                  |
+|                     | <img id="sns" src="https://img.shields.io/badge/Searching_&_Sorting-36-red?style=for-the-badge">              |<a href="#index">🔝 Back</a>|
 | Searching & Sorting | Find first and last positions of an element in a sorted array                                        | <->              |
 | Searching & Sorting | Find a Fixed Point (Value equal to index) in a given array                                           | <->              |
 | Searching & Sorting | Search in a rotated sorted array                                                                     | <->              |
@@ -160,7 +162,7 @@
 | Searching & Sorting | Implement Merge-sort in-place                                                                        | <->              |
 | Searching & Sorting | Partitioning and Sorting Arrays with Many Repeated Entries                                           | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="linkedlist" src="https://img.shields.io/badge/Linked_List-36-blue?style=for-the-badge">                     |                  |
+|                     | <img id="linkedlist" src="https://img.shields.io/badge/Linked_List-36-blue?style=for-the-badge">                     |<a href="#index">🔝 Back</a>|
 | LinkedList          | Write a Program to reverse the Linked List. (Both Iterative and recursive)                           | <->              |
 | LinkedList          | Reverse a Linked List in group of Given Size. [Very Imp]                                             | <->              |
 | LinkedList          | Write a program to Detect loop in a linked list.                                                     | <->              |
@@ -198,7 +200,7 @@
 | LinkedList          | Program for n’th node from the end of a Linked List                                                  | <->              |
 | LinkedList          | Find the first non-repeating character from a stream of characters                                   | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="binarytrees" src="https://img.shields.io/badge/Binary_Trees-35-bluevoilet?style=for-the-badge">              |                  |
+|                     | <img id="binarytrees" src="https://img.shields.io/badge/Binary_Trees-35-bluevoilet?style=for-the-badge">              |<a href="#index">🔝 Back</a>|
 | Binary Trees        | level order traversal                                                                                | <->              |
 | Binary Trees        | Reverse Level Order traversal                                                                        | <->              |
 | Binary Trees        | Height of a tree                                                                                     | <->              |
@@ -235,7 +237,7 @@
 | Binary Trees        | Find all Duplicate subtrees in a Binary tree [ IMP ]                                                 | <->              |
 | Binary Trees        | Tree Isomorphism Problem                                                                             | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="bst" src="https://img.shields.io/badge/Binary_Search_Trees-22-yellowgreen?style=for-the-badge">      |                  |
+|                     | <img id="bst" src="https://img.shields.io/badge/Binary_Search_Trees-22-yellowgreen?style=for-the-badge">      |<a href="#index">🔝 Back</a>|
 | Binary Search Trees | Fina a value in a BST                                                                                | <->              |
 | Binary Search Trees | Deletion of a node in a BST                                                                          | <->              |
 | Binary Search Trees | Find min and max value in a BST                                                                      | <->              |
@@ -259,7 +261,7 @@
 | Binary Search Trees | Largest BST in a Binary Tree [ V.V.V.V.V IMP ]                                                       | <->              |
 | Binary Search Trees | Flatten BST to sorted list                                                                           | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="greedy" src="https://img.shields.io/badge/Greedy-35-green?style=for-the-badge">                                |                  |
+|                     | <img id="greedy" src="https://img.shields.io/badge/Greedy-35-green?style=for-the-badge">                                |<a href="#index">🔝 Back</a>|
 | Greedy              | Activity Selection Problem                                                                           | <->              |
 | Greedy              | Job SequencingProblem                                                                                | <->              |
 | Greedy              | Huffman Coding                                                                                       | <->              |
@@ -296,7 +298,7 @@
 | Greedy              | Rearrange characters in a string such that no two adjacent are same                                  | <->              |
 | Greedy              | Find maximum sum possible equal sum of three stacks                                                  | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="backtracking" src="https://img.shields.io/badge/Back_Tracking-19-yellow?style=for-the-badge">                                |                  |
+|                     | <img id="backtracking" src="https://img.shields.io/badge/Back_Tracking-19-yellow?style=for-the-badge">                                |<a href="#index">🔝 Back</a>|
 | BackTracking        | Rat in a maze Problem                                                                                | <->              |
 | BackTracking        | Printing all solutions in N-Queen Problem                                                            | <->              |
 | BackTracking        | Word Break Problem using Backtracking                                                                | <->              |
@@ -317,7 +319,7 @@
 | BackTracking        | Partition of a set intoK subsets with equal sum                                                      | <->              |
 | BackTracking        | Find the K-th Permutation Sequence of first N natural numbers                                        | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="snq" src="https://img.shields.io/badge/Stacks_&_Queues-38-red?style=for-the-badge">                  |                  |
+|                     | <img id="snq" src="https://img.shields.io/badge/Stacks_&_Queues-38-red?style=for-the-badge">                  |<a href="#index">🔝 Back</a>|
 | Stacks & Queues     | Implement Stack from Scratch                                                                         | <->              |
 | Stacks & Queues     | Implement Queue from Scratch                                                                         | <->              |
 | Stacks & Queues     | Implement 2 stack in an array                                                                        | <->              |
@@ -357,7 +359,7 @@
 | Stacks & Queues     | Queue based approach or first non-repeating character in a stream.                                   | <->              |
 | Stacks & Queues     | Next Smaller Element                                                                                 | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="heap" src="https://img.shields.io/badge/Heap-18-orange?style=for-the-badge">                          |                  |
+|                     | <img id="heap" src="https://img.shields.io/badge/Heap-18-orange?style=for-the-badge">                          |<a href="#index">🔝 Back</a>|
 | Heap                | Implement a Maxheap/MinHeap using arrays and recursion.                                              | <->              |
 | Heap                | Sort an Array using heap. (HeapSort)                                                                 | <->              |
 | Heap                | Maximum of all subarrays of size k.                                                                  | <->              |
@@ -377,7 +379,7 @@
 | Heap                | Rearrange characters in a string such that no two adjacent are same.                                 | <->              |
 | Heap                | Minimum sum of two numbers formed from digits of an array                                            | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="graph" src="https://img.shields.io/badge/Graph-44-orange?style=for-the-badge">                         |                  |
+|                     | <img id="graph" src="https://img.shields.io/badge/Graph-44-orange?style=for-the-badge">                         |<a href="#index">🔝 Back</a>|
 | Graph               | Create a Graph, print it                                                                             | <->              |
 | Graph               | Implement BFS algorithm                                                                              | <->              |
 | Graph               | Implement DFS Algo                                                                                   | <->              |
@@ -423,7 +425,7 @@
 | Graph               | Minimise the cashflow among a given set of friends who have borrowed money from each other           | <->              |
 | Graph               | Two Clique Problem                                                                                   | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="trie" src="https://img.shields.io/badge/Trie-06-blue?style=for-the-badge">                                   |                  |
+|                     | <img id="trie" src="https://img.shields.io/badge/Trie-06-blue?style=for-the-badge">                                   |<a href="#index">🔝 Back</a>|
 | Trie                | Construct a trie from scratch                                                                        | <->              |
 | Trie                | Find shortest unique prefix for every word in a given list                                           | <->              |
 | Trie                | Word Break Problem \| (Trie solution)                                                                | <->              |
@@ -431,7 +433,7 @@
 | Trie                | Implement a Phone Directory                                                                          | <->              |
 | Trie                | Print unique rows in a given boolean matrix                                                          | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="dp" src="https://img.shields.io/badge/ Dynamic_Programming-60-ff69b4?style=for-the-badge">                    |                  |
+|                     | <img id="dp" src="https://img.shields.io/badge/ Dynamic_Programming-60-ff69b4?style=for-the-badge">                    |<a href="#index">🔝 Back</a>|
 | Dynamic Programming | Coin ChangeProblem                                                                                   | <->              |
 | Dynamic Programming | Knapsack Problem                                                                                     | <->              |
 | Dynamic Programming | Binomial CoefficientProblem                                                                          | <->              |
@@ -493,7 +495,7 @@
 | Dynamic Programming | Find if a string is interleaved of two other strings                                                 | <->              |
 | Dynamic Programming | Maximum Length of Pair Chain                                                                         | <->              |
 |                     |                                                                                                      |                  |
-|                     | <img id="bm" src="https://img.shields.io/badge/Bit_Manipulation-10-bluevoilet?style=for-the-badge">          |                  |
+|                     | <img id="bm" src="https://img.shields.io/badge/Bit_Manipulation-10-bluevoilet?style=for-the-badge">          |<a href="#index">🔝 Back</a>|
 | Bit Manipulation    | Count set bits in an integer                                                                         | <->              |
 | Bit Manipulation    | Find the two non-repeating elements in an array of repeating elements                                | <->              |
 | Bit Manipulation    | Count number of bits to be flipped to convert A to B                                                 | <->              |

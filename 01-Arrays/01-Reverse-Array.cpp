@@ -6,6 +6,9 @@ SAMPLE INPUT
 OUTPUT
 arr[6] : {4, 7, a, 8, 3, b, }
 revarr[6] : {b, 3, 8, a, 7, 4, }
+COMPLEXITY
+Time : O(n)
+Space : O(n)
 */
 
 #include<iostream>

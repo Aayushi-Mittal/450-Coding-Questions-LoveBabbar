@@ -1,14 +1,44 @@
 # Arrays
 
-<img id="array" src="https://img.shields.io/badge/Arrays-35-brightgreen?style=for-the-badge"> 
+An array is a collection of items of the same data type stored at contiguous memory locations. The size of the array is fixed and the memory for an array needs to be allocated before use, the size of an array cannot be increased or decreased dynamically.
+
+``
+dataType arrayName[arraySize];
+dataType arrayName[] = {1, 2, 3, 4, ...};
+``
+
+Elements in an array can be accessed using indexes. Suppose an array named arr stores N elements. Indexes in an array are in the range of 0 to N-1.
+
+## Related Topics:
+- Insertion and Deletion in arrays. ``O(n)``
+- Searching an Element.
+    - Linear Search ``O(n)``
+    - Binary Search ``O(logn)``
+- Reversing an Array. ``O(n)``
+- Rotating an Array. ``O(n)``
+- Sliding Window Technique.
+- Sorting an array.
+    - Bubble ``O(n^2)``
+    - Selection ``O(n^2)``
+    - Insertion ``O(n^2)``
+    - Quick ``O(nlogn)``, ``O(n^2)``
+    - Merge ``O(nlogn)``
+- Dynamic Arrays - Vectors (STL)
+    - pop()
+    - push()
+
+## Questions
+<!--[![Reverse the array](https://img.shields.io/badge/Solution-green)](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)-->
+
+<img id="array" src="https://img.shields.io/badge/Arrays-36-brightgreen?style=for-the-badge"> 
 
 | S. No              | Problem                                                                                              | Solutions        |
 |:-------------------:|------------------------------------------------------------------------------------------------------|:----------------:|
 | 1               | <a href="https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/" target="_blank">Reverse the array</a>                                                                                  | <a href="./01-Reverse-Array.cpp"><img src="https://img.shields.io/badge/Solution-green"></a>            |
-| 2               | Find the maximum and minimum element in an array                                                     | <->              |
-| 3               | Find the "Kth" max and min element of an array                                                       | <->              |
-| 4               | Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo      | <->              |
-| 5               | Move all the negative elements to one side of the array                                              | <->              |
+| 2               | <a href="https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/" target="_blank">Find the maximum and minimum element in an array </a>                                                    | <->              |
+| 3               | <a href="https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1" target="_blank">Find the "Kth" max and min element of an array  </a>                                                     | <->              |
+| 4               | <a href="https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1" target="_blank">Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo </a>     | <->              |
+| 5               | <a href="https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/" target="_blank">Move all the negative elements to one side of the array  </a>                                            | <->              |
 | 6               | Find the Union and Intersection of the two sorted arrays.                                            | <->              |
 | 7               | Write a program to cyclically rotate an array by one.                                                | <->              |
 | 8               | find Largest sum contiguous Subarray <img src="https://img.shields.io/badge/V. IMP-orange">                                                         | <->              |
@@ -27,8 +57,8 @@
 | 21               | Find if there is any subarray with sum equal to 0                                                    | <->              |
 | 22               | Find factorial of a large number                                                                     | <->              |
 | 23               | find maximum product subarray                                                                        | <->              |
-| 24               | Find longest coinsecutive subsequence                                                                | <->              |
-| 25               | Given an array of size n and a number k, fin all elements that appear more than " n/k " times.       | <->              |
+| 24               | Find longest consecutive subsequence                                                                | <->              |
+| 25               | Given an array of size n and a number k, find all elements that appear more than " n/k " times.       | <->              |
 | 26               | Maximum profit by buying and selling a share atmost twice                                            | <->              |
 | 27               | Find whether an array is a subset of another array                                                   | <->              |
 | 28               | Find the triplet that sum to a given value                                                           | <->              |

@@ -2,7 +2,6 @@
 /*
 Given an array arr[] and a number K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
 
-/*
 COMPLEXITY - O(n)
 SAMPLE INPUT
 2
@@ -17,9 +16,9 @@ OUTPUT
 15
 */
 
+//Complexity : O(n^2)
 
 /*
-Complexity : O(n^2)
 int kthSmallest(int arr[], int l, int r, int k) {
     //code here
     int temp;

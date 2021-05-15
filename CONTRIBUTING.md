@@ -12,6 +12,13 @@ $ cd 450-Coding-Questions-LoveBabbar
 ```
 where username is your GitHub account username.
 
+- Add Upstream to your repository.
+
+```
+$ git add remote upstream "https://github.com/Aayushi-Mittal/450-Coding-Questions-LoveBabbar.git"
+```
+where username is your GitHub account username.
+
 - Create a branch where you can do your local work.
 ```
 $ git branch {branchname}

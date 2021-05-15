@@ -38,7 +38,7 @@
 
 <details>
 
-<summary><img id="array" src="https://img.shields.io/badge/Arrays-35-brightgreen?style=for-the-badge"></summary>
+<summary><img id="array" src="https://img.shields.io/badge/Arrays-35-brightgreen?style=for-the-badge.jpg"></summary>
 
 
 | Topic:              | Problem                                                                                              | Solutions        |

@@ -1,31 +1,31 @@
 //Write a program to reverse an array or string.
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int n=100, i=0;
+    int n = 100, i = 0;
     char arr[n], revarr[n];
-    cout<<"Enter the size of the array: ";
-    cin>>n;                 //size of array
-    cout<<"Enter "<<n<<" elements of the array: ";
-    for(i=0; i<n; i++)
+    cout << "Enter the size of the array: ";
+    cin >> n; //size of array
+    cout << "Enter " << n << " elements of the array: ";
+    for (i = 0; i < n; i++)
     {
-        cin>>arr[i];
+        cin >> arr[i];
     }
-    cout<<"\narr["<<n<<"] : {";
-    for(i=0; i<n; i++)
+    cout << "\narr[" << n << "] : {";
+    for (i = 0; i < n; i++)
     {
-        revarr[i]=arr[n-i-1];
-        cout<<arr[i]<<", ";
+        revarr[i] = arr[n - i - 1];
+        cout << arr[i] << ", ";
     }
-    cout<<"}\n";
-    cout<<"revarr["<<n<<"] : {";
-    for(i=0; i<n; i++)
+    cout << "}\n";
+    cout << "revarr[" << n << "] : {";
+    for (i = 0; i < n; i++)
     {
-        cout<<revarr[i]<<", ";
+        cout << revarr[i] << ", ";
     }
-    cout<<"}\n";
+    cout << "}\n";
     return 0;
 }
 

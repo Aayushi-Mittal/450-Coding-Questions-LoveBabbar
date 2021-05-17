@@ -1,33 +1,44 @@
 //Write a program to find maximum and minimum elements in an array.
-/*
-COMPLEXITY - O(n)
-SAMPLE INPUT
-6
-4 7 8 9 21 40 6 4 1
-OUTPUT
-MAX : 40
-MIN : 1
-*/
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int n, i=0;
+    int n, i = 0;
+    cout<<"Enter the size of the array: ";
     cin>>n;
     int a[n];
-    for(i=0; i<n; i++)
+    cout<<"Enter "<<n<<" elements of the array: ";
+    for (i = 0; i < n; i++)
     {
-        cin>>a[i];
+        cin >> a[i];
     }
-    int max=a[0], min=a[0];
-    for(i=1; i<n; i++)
+    int maxnum = a[0], minnum = a[0];
+    for (i = 1; i < n; i++)
     {
-        if(a[i]>max)
-            max=a[i];
-        if(a[i]<min)
-            max=a[i];
+        if (a[i] > maxnum)
+            maxnum = a[i];
+        if (a[i] < minnum)
+            maxnum = a[i];
     }
-    cout<<"MAX : "<<max<<endl;
-    cout<<"MIN : "<<min<<endl;
+    cout << "Maximum : " << maxnum << endl;
+    cout << "Minimum : " << minnum << endl;
+    return 0;
 }
+
+/*
+
+Sample I/O
+
+Input:
+Enter the size of the array: 6
+Enter 6 elements of the array: 89 2 13 104 83 0
+
+Output:
+Maximum : 0
+Minimum : 89
+
+Time Complexity : O(n)
+Space Complexity : O(1)
+
+*/

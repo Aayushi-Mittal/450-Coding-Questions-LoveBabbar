@@ -16,6 +16,7 @@ Elements in an array can be accessed using indexes. Suppose an array named arr s
   - Binary Search `O(logn)`
 - Reversing an Array. `O(n)`
 - Rotating an Array. `O(n)`
+- Pre-Processing `O(n) extra space`
 - Sliding Window Technique.
 - Sorting an array.
   - Bubble `O(n^2)`

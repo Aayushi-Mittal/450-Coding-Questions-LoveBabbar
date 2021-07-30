@@ -6,6 +6,20 @@ dataType matrixName[numberOfRows][numberOfColumns];
 dataType matrixName[] = {{1, 2, 3, 4, ... n}, {1, 2, 3, ... n}, ... m};
 ``
 
+## Properties of Matrices
+
+Properties of transpose of a matrix:
+- (AT)T = A
+- (A+B)T = AT + BT
+- (AB)T = BTAT
+
+Properties of Matrix addition and multiplication:
+- A+B = B+A (Commutative)
+- (A+B)+C = A+ (B+C) (Associative)
+- AB ≠ BA (Not Commutative)
+- (AB) C = A (BC) (Associative)
+- A (B+C) = AB+AC (Distributive)
+
 ## Types Of Matrices
 - Square Matrix: A square Matrix has as many rows as it has columns. i.e. no of rows = no of columns.
 - Symmetric matrix: A square matrix is said to be symmetric if the transpose of original matrix is equal to its original matrix. i.e. (AT) = A.
@@ -21,7 +35,7 @@ dataType matrixName[] = {{1, 2, 3, 4, ... n}, {1, 2, 3, ... n}, ... m};
 - Lower Triangular
 
 ## Related Topics:
-- Insertion and Deletion in matrices. ``O(n)``
+- Insertion and Deletion in matrices. 
 - Searching an Element.
 - Operations on Matrix
     - Addition
@@ -31,3 +45,4 @@ dataType matrixName[] = {{1, 2, 3, 4, ... n}, {1, 2, 3, ... n}, ... m};
 - Inverse Of a matrix. ``O(n)``
 - Rotation of Matrices.
 - 2D Vectors (STL)
+- Traversal (Diagonal, Spiral, etc.)

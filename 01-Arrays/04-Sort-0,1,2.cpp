@@ -58,3 +58,15 @@ void sort012(int a[], int n)
             a[i]=2;
     }
 }
+
+
+// Approach-1 (counting-sort, Two traversals)
+// Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.
+
+/*
+
+*/
+
+
+// Approach-2 (3-way partitioning, Dutch National Flag Problem, One Traversal)
+// Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.

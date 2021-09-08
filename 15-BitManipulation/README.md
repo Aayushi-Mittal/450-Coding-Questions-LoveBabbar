@@ -6,6 +6,7 @@ Bit stands for Binary Digit, a basic and smallest unit of data in a computer. Bi
 Note: We read binary number from the right to left.
 
 > Bit manipulation is the act of algorithmically manipulating bits using bit-level (bitwise) operations.
+
 > A bitmask is the data used for bitwise operations, particularly in a bit field. Using a mask, bits can be set either on/off or vice versa in a single bitwise operation.
 
 - **Setting a bit** means that if n-th bit is 0, then set it to 1 and if it is 1 then leave it unchanged.
@@ -75,7 +76,7 @@ Consider a set A of 3 elements.
 A = {a, b, c}
 
 Now, we need 3 bits, one bit for each element. 1 represent that the corresponding element is present in the subset, whereas 0 represent the corresponding element is not in the subset. Let’s write all the possible combination of these 3 bits.
-
+```
 0 = (000)2 = {}
 1 = (001)2 = {c}
 2 = (010)2 = {b}
@@ -84,7 +85,7 @@ Now, we need 3 bits, one bit for each element. 1 represent that the correspondin
 5 = (101)2 = {a, c}
 6 = (110)2 = {a, b}
 7 = (111)2 = {a, b, c}
-
+```
 Implementation:
 ```
   void possibleSubsets(char A[], int N)
@@ -99,25 +100,25 @@ Implementation:
     }
 ```
 
-## Other usefull tricks
-- `(~x)`; one's complement, inverts each and every bit of a number.
-- `(~x)+1`; two's complement
-- `x & (x-1) = 0`; if x is a power of 2
-- `x = x << 1;` Multiplying by 2
-- `x = x << n;` Multiplying n times by 2
-- `x = x >> 1;`Dividing by 2
-- `x = x >> n;`Dividing n times by 2
-- `x ^ ( x & (x-1))` , Returns the rightmost 1 in binary representation of x.
-- `x & (-x)` , Returns the rightmost 1 in binary representation of x. Eg: x & (-x) = (1010)2 & (0110)2 = (0010)2
-- `x | (1 << n)` , Returns the number x with the nth bit set.
-- `x & (x-1)` will clear the lowest set bit of x
-- `x & ~(x-1)` extracts the lowest set bit of x (all others are clear). Pretty patterns when applied to a linear sequence.
-- `x & (x + (1 << n)) = x`, with the run of set bits (possibly length 0) starting at bit n cleared.
-- `x & ~(x + (1 << n))` = the run of set bits (possibly length 0) in x, starting at bit n.
-- `x | (x + 1) = x` with the lowest cleared bit set.
-- `x | ~(x + 1)` = extracts the lowest cleared bit of x (all others are set).
-- `x | (x - (1 << n)) = x`, with the run of cleared bits (possibly length 0) starting at bit n set.
-- `x | ~(x - (1 << n))` = the lowest run of cleared bits (possibly length 0) in x, starting at bit n are the only clear bits.
+### Other useful tricks
+- `(~x)` :  one's complement, inverts each and every bit of a number.
+- `(~x)+1` :  two's complement
+- `x & (x-1) = 0` : if x is a power of 2
+- `x = x << 1;` : Multiplying by 2
+- `x = x << n;` : Multiplying n times by 2
+- `x = x >> 1;` : Dividing by 2
+- `x = x >> n;` : Dividing n times by 2
+- `x ^ ( x & (x-1))` : Returns the rightmost 1 in binary representation of x.
+- `x & (-x)` : Returns the rightmost 1 in binary representation of x. Eg: x & (-x) = (1010)2 & (0110)2 = (0010)2
+- `x | (1 << n)` : Returns the number x with the nth bit set.
+- `x & (x-1)` : will clear the lowest set bit of x
+- `x & ~(x-1)` : extracts the lowest set bit of x (all others are clear). Pretty patterns when applied to a linear sequence.
+- `x & (x + (1 << n)) = x` : with the run of set bits (possibly length 0) starting at bit n cleared.
+- `x & ~(x + (1 << n))` : the run of set bits (possibly length 0) in x, starting at bit n.
+- `x | (x + 1) = x` : with the lowest cleared bit set.
+- `x | ~(x + 1)` : extracts the lowest cleared bit of x (all others are set).
+- `x | (x - (1 << n)) = x` : with the run of cleared bits (possibly length 0) starting at bit n set.
+- `x | ~(x - (1 << n))` : the lowest run of cleared bits (possibly length 0) in x, starting at bit n are the only clear bits.
 
 
 ## Applications

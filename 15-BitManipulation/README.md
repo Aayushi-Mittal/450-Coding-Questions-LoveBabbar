@@ -1,6 +1,5 @@
 # Bit Manipulation
 
-
 ## Bit and Binary Digits
 Bit stands for Binary Digit, a basic and smallest unit of data in a computer. Binary representation is based on 1s and 0s. A Bit represents a logical state with only 2 boolean values, either 0 or 1, as they are a 2 base number. They are the lowest level of language used in machines.
 

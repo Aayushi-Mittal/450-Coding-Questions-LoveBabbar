@@ -1,37 +1,37 @@
-//Deleting an element from an array takes O(n) time even if we are given index of the element to be deleted. 
-//The time complexity remains O(n) for sorted arrays as well. 
+// Deleting an element - Time Complexity: O(n) even for sorted arrays, Space Complexity: O(1)
 
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
 	int n, x;
-	cout<<"Enter the size of the array: ";
-	cin>>n;
-	cout<<"Enter the elements of the array: ";
+	bool found = false;
+
+	cin >> n; // no of elements
 	int arr[n];
-	for(int i=0; i<n; i++)
-		cin>>arr[i];
-	cout<<"Enter the element you want to delete: ";
-	cin>>x;
+	for (int i = 0; i < n; i++)
+		cin >> arr[i];
+	cin >> x; // element to be deleted
 
-	//searching x in the array
-	for(int i=0; i<n; i++)
+	for (int i = 0; i < n; i++)
 	{
-		if(arr[i]==x)
-			break;
+		if (arr[i] == x)
+			found = true;
+		if (found)
+			arr[i] = arr[i + 1]; // NOTE: It can't be arr[i-1]=arr[i]
 	}
-
-	// shifting elements after the index at which x is found.
-	while(i<n-1)
-		arr[i]=arr[i-1];
-
-	//new size
-	n--;
-
-	cout << "Array after deletion of "<<x<<" is :";
-	for (int i=0; i<n; i++)
+	for (int i = 0; i < n - 1; i++)
+	{
 		cout << arr[i] << " ";
-	return 0;
+	}
 }
+
+/*
+Sample Input:
+5
+1 2 3 4 5
+1
+
+Output:
+2 3 4 5
+*/

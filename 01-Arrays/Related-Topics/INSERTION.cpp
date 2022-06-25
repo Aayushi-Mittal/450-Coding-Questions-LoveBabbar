@@ -1,42 +1,38 @@
-//Inserting an element from an array takes O(n). 
-//The time complexity remains O(n) for sorted arrays as well. 
+// Inserting an element - Time Complexity: O(n) even for sorted arrays, Space Complexity: O(1)
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-	int n, x, idx;
-	cout<<"Enter the size of the array: ";
-	cin>>n;
-	cout<<"Enter the elements of the array: ";
+	int n, x, idx, i = 0;
+	cin >> n;
 	int arr[n];
-	for(int i=0; i<n; i++)
-		cin>>arr[i];
-	cout<<"Enter the element you want to insert: ";
-	cin>>x;
-	cout<<"Enter the index at which you want to insert the element: ";
-	cin>>idx;
+	for (i = 0; i < n; i++)
+		cin >> arr[i];
+	cin >> x;	// element you want to insert
+	cin >> idx; // index at which you want to insert the element
 
-	//searching index x in the array
-	for(int i=0; i<n; i++)
-	{
-		if(i==idx)
-			break;
-	}
-	i++;
-
-	// shifting elements after the index idx.
-	while(i<n)
-		arr[i]=arr[i-1];
-
-	// inserting element at index idx.
-	arr[idx]=x;
-	//new size
 	n++;
 
-	cout << "Array after deletion of "<<x<<" is :";
-	for (int i=0; i<n; i++)
+	for (i = n - 2; i >= idx; i--)
+		arr[i + 1] = arr[i];
+
+	arr[idx] = x;
+
+	for (i = 0; i < n; i++)
 		cout << arr[i] << " ";
+
 	return 0;
 }
+
+/*
+Sample Input:
+5
+1 2 3 4 5
+1
+4
+
+Output:
+1 2 3 4 1 5
+*/

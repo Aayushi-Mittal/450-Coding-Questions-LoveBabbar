@@ -41,8 +41,11 @@ Properties of Matrix addition and multiplication:
     - Addition
     - Subtraction
     - Multiplication
+    - Strassens Multiplication (https://www.interviewbit.com/blog/strassens-matrix-multiplication/)
 - Transpose of a Matrix. ``O(n)``
 - Inverse Of a matrix. ``O(n)``
 - Rotation of Matrices.
 - 2D Vectors (STL)
 - Traversal (Diagonal, Spiral, etc.)
+- BFS
+- DFS

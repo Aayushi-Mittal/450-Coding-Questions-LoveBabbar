@@ -1,3 +1,5 @@
+AASTHA-changes this line to learn about github
+
 # Arrays <img id="array" src="https://img.shields.io/badge/Arrays-36-brightgreen?style=for-the-badge">
 
 An array is a collection of items of the same data type stored at contiguous memory locations. The size of the array is fixed and the memory for an array needs to be allocated before use, the size of an array cannot be increased or decreased dynamically.
@@ -69,3 +71,5 @@ Elements in an array can be accessed using indexes. Suppose an array named arr s
 |  34   | [Minimum no. of operations required to make an array palindrome](https://practice.geeksforgeeks.org/problems/palindromic-array/0)                                                                                   |              <->               |
 |  35   | [Median of 2 sorted arrays of equal size](https://practice.geeksforgeeks.org/problems/find-the-median0527/1)                                                                                                        |              <->               |
 |  36   | [Median of 2 sorted arrays of different size](https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/)                                                                                        |              <->               |
+
+This list is amazing
